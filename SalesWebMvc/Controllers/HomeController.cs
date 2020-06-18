@@ -22,7 +22,7 @@ namespace SalesWebMvc.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Manual()
         {
             ViewData["Message"] = "Your contact page.";
 
